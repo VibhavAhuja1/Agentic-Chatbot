@@ -21,3 +21,4 @@ class DisplayResultStreamlit:
                         st.write(user_message)
                     with st.chat_message('assistant'):
                         st.write(value['messages'].content)
+
