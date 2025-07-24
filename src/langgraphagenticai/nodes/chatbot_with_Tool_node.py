@@ -1,7 +1,8 @@
 from src.langgraphagenticai.state.state import State
 
 class ChatbotWithToolNode:
-    """Chatbot logic enchanced with tool integration
+    """
+    Chatbot logic enchanced with tool integration
     """
     def __init__(self,model):
         self.llm = model 
